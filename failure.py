@@ -12,7 +12,7 @@ def compute_failure(pattern):
             i += 1
         else:
             if length != 0:
-                # retrocede al prefijo-sufijo más corto anterior
+                # retrocede al pref-suf mas corto anterior
                 length = failure[length - 1]
             else:
                 failure[i] = 0
